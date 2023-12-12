@@ -1,0 +1,63 @@
+19:20:56.106 [MainThread] INFO    thonny: Thonny version: 4.1.4
+19:20:56.106 [MainThread] INFO    thonny: cwd: C:\Users\Sadudu
+19:20:56.106 [MainThread] INFO    thonny: original argv: ['C:\\Users\\Sadudu\\Desktop\\iNixie-Kit\\Thonny\\python.exe', '-s', '-u', '-B', 'C:\\Users\\Sadudu\\Desktop\\iNixie-Kit\\Thonny\\lib\\site-packages\\thonny\\plugins\\esp\\esp_back.py', "{'clean': True, 'port': 'COM3', 'dtr': None, 'rts': None, 'submit_mode': None, 'interrupt_on_connect': True, 'write_block_size': None, 'write_block_delay': None, 'proxy_class': 'ESP32Proxy', 'sync_time': True, 'validate_time': False, 'local_rtc': True}"]
+19:20:56.106 [MainThread] INFO    thonny: sys.executable: C:\Users\Sadudu\Desktop\iNixie-Kit\Thonny\python.exe
+19:20:56.106 [MainThread] INFO    thonny: sys.argv: ['C:\\Users\\Sadudu\\Desktop\\iNixie-Kit\\Thonny\\lib\\site-packages\\thonny\\plugins\\esp\\esp_back.py', "{'clean': True, 'port': 'COM3', 'dtr': None, 'rts': None, 'submit_mode': None, 'interrupt_on_connect': True, 'write_block_size': None, 'write_block_delay': None, 'proxy_class': 'ESP32Proxy', 'sync_time': True, 'validate_time': False, 'local_rtc': True}"]
+19:20:56.106 [MainThread] INFO    thonny: sys.path: ['C:\\Users\\Sadudu\\Desktop\\iNixie-Kit\\Thonny\\lib\\site-packages\\thonny\\plugins\\esp', 'C:\\Users\\Sadudu\\Desktop\\iNixie-Kit\\Thonny\\python310.zip', 'C:\\Users\\Sadudu\\Desktop\\iNixie-Kit\\Thonny\\DLLs', 'C:\\Users\\Sadudu\\Desktop\\iNixie-Kit\\Thonny\\lib', 'C:\\Users\\Sadudu\\Desktop\\iNixie-Kit\\Thonny', 'C:\\Users\\Sadudu\\Desktop\\iNixie-Kit\\Thonny\\lib\\site-packages']
+19:20:56.106 [MainThread] INFO    thonny: sys.flags: sys.flags(debug=0, inspect=0, interactive=0, optimize=0, dont_write_bytecode=1, no_user_site=1, no_site=0, ignore_environment=0, verbose=0, bytes_warning=0, quiet=0, hash_randomization=1, isolated=0, dev_mode=False, utf8_mode=0, warn_default_encoding=0, int_max_str_digits=-1)
+19:20:56.106 [MainThread] INFO    thonny.plugins.micropython.bare_metal_backend: Starting backend, args: {'clean': True, 'port': 'COM3', 'dtr': None, 'rts': None, 'submit_mode': None, 'interrupt_on_connect': True, 'write_block_size': None, 'write_block_delay': None, 'proxy_class': 'ESP32Proxy', 'sync_time': True, 'validate_time': False, 'local_rtc': True}
+19:20:56.132 [MainThread] INFO    thonny.plugins.micropython.bare_metal_backend: Initial submit_mode: raw_paste, write_block_size: 127, write_block_delay: 0, read_block_size: 0
+19:20:56.133 [MainThread] INFO    thonny.plugins.micropython.mp_back: Initializing MicroPythonBackend of type EspMicroPythonBackend
+19:20:56.133 [MainThread] INFO    thonny: TIME/MODS 0.090 before prepare (+73 modules)
+19:20:56.133 [MainThread] INFO    thonny: NEW MODS ['__future__', '_bz2', '_compression', '_ctypes', '_datetime', '_heapq', '_lzma', '_queue', '_struct', '_tkinter', 'binascii', 'bz2', 'ctypes', 'ctypes._endian', 'ctypes.wintypes', 'datetime', 'encodings.ascii', 'errno', 'faulthandler', 'fnmatch', 'gettext', 'heapq', 'lzma', 'math', 'msvcrt', 'pathlib', 'platform', 'posixpath', 'queue', 'serial', 'serial.serialutil', 'serial.serialwin32', 'serial.win32', 'shlex', 'shutil', 'signal', 'struct', 'subprocess', 'textwrap', 'thonny.backend', 'thonny.base_file_browser', 'thonny.codeview', 'thonny.config_ui', 'thonny.editors', 'thonny.languages', 'thonny.misc_utils', 'thonny.plugins', 'thonny.plugins.backend_config_page', 'thonny.plugins.micropython', 'thonny.plugins.micropython.bare_metal_backend', 'thonny.plugins.micropython.connection', 'thonny.plugins.micropython.mp_back', 'thonny.plugins.micropython.mp_common', 'thonny.plugins.micropython.mp_front', 'thonny.plugins.micropython.serial_connection', 'thonny.plugins.micropython.webrepl_connection', 'thonny.roughparse', 'thonny.running', 'thonny.tktextext', 'thonny.ui_utils', 'thonny.workdlg', 'tkinter', 'tkinter.commondialog', 'tkinter.constants', 'tkinter.dialog', 'tkinter.filedialog', 'tkinter.font', 'tkinter.messagebox', 'tkinter.simpledialog', 'tkinter.ttk', 'urllib', 'urllib.parse', 'zlib']
+19:20:56.133 [MainThread] INFO    thonny.plugins.micropython.mp_back: Sending interrupt
+19:20:56.133 [MainThread] INFO    thonny.plugins.micropython.mp_back: Done sending interrupt
+19:20:56.229 [MainThread] INFO    thonny: TIME/MODS 0.096 got welcome 
+19:20:56.229 [MainThread] INFO    thonny: TIME/MODS 0.000 bef preparing helpers 
+19:20:56.229 [MainThread] INFO    thonny.plugins.micropython.mp_back: Preparing helpers
+19:20:56.229 [MainThread] INFO    thonny: TIME/MODS 0.000 befsubcode 
+19:20:56.229 [MainThread] INFO    thonny.plugins.micropython.bare_metal_backend: Requesting raw mode at b'>>> '
+19:20:56.239 [MainThread] INFO    thonny.plugins.micropython.bare_metal_backend: Discarding stdout: '\r\n'
+19:20:56.261 [MainThread] INFO    thonny.plugins.micropython.bare_metal_backend: Discarding stdout: ''
+19:20:56.261 [MainThread] INFO    thonny.plugins.micropython.bare_metal_backend: Entered raw prompt
+19:20:56.399 [MainThread] INFO    thonny: TIME/MODS 0.171 affsubcode 
+19:20:56.433 [MainThread] INFO    thonny: TIME/MODS 0.033 affforw 
+19:20:56.433 [MainThread] INFO    thonny: TIME/MODS 0.000 prepared helpers 
+19:20:56.433 [MainThread] INFO    thonny: TIME/MODS 0.000 befsubcode 
+19:20:56.449 [MainThread] INFO    thonny: TIME/MODS 0.016 affsubcode 
+19:20:56.480 [MainThread] INFO    thonny: TIME/MODS 0.031 affforw 
+19:20:56.480 [MainThread] INFO    thonny: TIME/MODS 0.000 got cwd 
+19:20:56.480 [MainThread] INFO    thonny: TIME/MODS 0.000 befsubcode 
+19:20:56.499 [MainThread] INFO    thonny: TIME/MODS 0.019 affsubcode 
+19:20:56.527 [MainThread] INFO    thonny: TIME/MODS 0.028 affforw 
+19:20:56.527 [MainThread] INFO    thonny: TIME/MODS 0.000 prepared 
+19:20:56.527 [MainThread] INFO    thonny.plugins.micropython.mp_back: Prepared
+19:20:56.527 [MainThread] INFO    thonny: TIME/MODS 0.000 befsubcode 
+19:20:56.548 [MainThread] INFO    thonny: TIME/MODS 0.021 affsubcode 
+19:20:56.668 [MainThread] INFO    thonny: TIME/MODS 0.120 affforw 
+19:20:56.668 [MainThread] INFO    thonny: TIME/MODS 0.000 befsubcode 
+19:20:56.709 [MainThread] INFO    thonny: TIME/MODS 0.041 affsubcode 
+19:20:56.747 [MainThread] INFO    thonny: TIME/MODS 0.038 affforw 
+19:20:56.747 [MainThread] INFO    thonny: TIME/MODS 0.000 befsubcode 
+19:20:56.798 [MainThread] INFO    thonny: TIME/MODS 0.051 affsubcode 
+19:20:56.826 [MainThread] INFO    thonny: TIME/MODS 0.028 affforw 
+19:20:56.826 [MainThread] INFO    thonny.backend: Loading Jedi
+19:20:56.826 [MainThread] INFO    thonny: TIME/MODS 0.000 Before loading Jedi 
+19:20:56.826 [MainThread] INFO    thonny.common: Using THONNY_FRONTEND_SYS_PATH ['C:\\Users\\Sadudu\\Desktop\\iNixie-Kit\\Thonny\\python310.zip', 'C:\\Users\\Sadudu\\Desktop\\iNixie-Kit\\Thonny\\DLLs', 'C:\\Users\\Sadudu\\Desktop\\iNixie-Kit\\Thonny\\lib', 'C:\\Users\\Sadudu\\Desktop\\iNixie-Kit\\Thonny', 'C:\\Users\\Sadudu\\Desktop\\iNixie-Kit\\Thonny\\lib\\site-packages', 'C:\\Users\\Sadudu\\Desktop\\iNixie-Kit\\Thonny\\user_data\\plugins\\Python310\\site-packages']
+19:20:56.915 [MainThread] INFO    thonny: TIME/MODS 0.089 After loading Jedi (+123 modules)
+19:20:56.915 [MainThread] INFO    thonny: NEW MODS ['_blake2', '_compat_pickle', '_hashlib', '_json', '_pickle', '_socket', 'difflib', 'filecmp', 'gc', 'hashlib', 'importlib._abc', 'importlib.util', 'jedi', 'jedi._compatibility', 'jedi.api', 'jedi.api.classes', 'jedi.api.completion', 'jedi.api.completion_cache', 'jedi.api.environment', 'jedi.api.errors', 'jedi.api.exceptions', 'jedi.api.file_name', 'jedi.api.helpers', 'jedi.api.interpreter', 'jedi.api.keywords', 'jedi.api.project', 'jedi.api.refactoring', 'jedi.api.refactoring.extract', 'jedi.api.strings', 'jedi.cache', 'jedi.common', 'jedi.debug', 'jedi.file_io', 'jedi.inference', 'jedi.inference.analysis', 'jedi.inference.arguments', 'jedi.inference.base_value', 'jedi.inference.cache', 'jedi.inference.compiled', 'jedi.inference.compiled.access', 'jedi.inference.compiled.getattr_static', 'jedi.inference.compiled.mixed', 'jedi.inference.compiled.subprocess', 'jedi.inference.compiled.subprocess.functions', 'jedi.inference.compiled.value', 'jedi.inference.context', 'jedi.inference.docstring_utils', 'jedi.inference.docstrings', 'jedi.inference.filters', 'jedi.inference.flow_analysis', 'jedi.inference.gradual', 'jedi.inference.gradual.annotation', 'jedi.inference.gradual.base', 'jedi.inference.gradual.conversion', 'jedi.inference.gradual.generics', 'jedi.inference.gradual.stub_value', 'jedi.inference.gradual.type_var', 'jedi.inference.gradual.typeshed', 'jedi.inference.gradual.typing', 'jedi.inference.gradual.utils', 'jedi.inference.helpers', 'jedi.inference.imports', 'jedi.inference.lazy_value', 'jedi.inference.names', 'jedi.inference.param', 'jedi.inference.parser_cache', 'jedi.inference.recursion', 'jedi.inference.references', 'jedi.inference.signature', 'jedi.inference.syntax_tree', 'jedi.inference.sys_path', 'jedi.inference.utils', 'jedi.inference.value', 'jedi.inference.value.decorator', 'jedi.inference.value.dynamic_arrays', 'jedi.inference.value.function', 'jedi.inference.value.instance', 'jedi.inference.value.iterable', 'jedi.inference.value.klass', 'jedi.inference.value.module', 'jedi.parser_utils', 'jedi.plugins', 'jedi.plugins.django', 'jedi.plugins.flask', 'jedi.plugins.pytest', 'jedi.plugins.registry', 'jedi.plugins.stdlib', 'jedi.settings', 'json', 'json.decoder', 'json.encoder', 'json.scanner', 'parso', 'parso._compatibility', 'parso.cache', 'parso.file_io', 'parso.grammar', 'parso.normalizer', 'parso.parser', 'parso.pgen2', 'parso.pgen2.generator', 'parso.pgen2.grammar_parser', 'parso.python', 'parso.python.diff', 'parso.python.errors', 'parso.python.parser', 'parso.python.pep8', 'parso.python.prefix', 'parso.python.token', 'parso.python.tokenize', 'parso.python.tree', 'parso.tree', 'parso.utils', 'pickle', 'pkgutil', 'pydoc', 'pydoc_data', 'pydoc_data.topics', 'select', 'selectors', 'socket', 'sysconfig', 'zipfile']
+19:20:56.915 [MainThread] INFO    thonny: TIME/MODS 0.000 sent ready 
+19:20:56.915 [MainThread] INFO    thonny: TIME/MODS 0.000 Beginning of mainloop 
+19:20:56.915 [MainThread] INFO    thonny: TIME/MODS 0.000 before get_dirs_children_info 
+19:20:56.916 [MainThread] INFO    thonny: TIME/MODS 0.001 befsubcode 
+19:20:56.979 [MainThread] INFO    thonny: TIME/MODS 0.063 affsubcode 
+19:20:57.043 [MainThread] INFO    thonny: TIME/MODS 0.064 affforw 
+19:20:57.043 [MainThread] INFO    thonny: TIME/MODS 0.000 after get_dirs_children_info 
+19:20:57.059 [MainThread] INFO    thonny: TIME/MODS 0.016 before get_globals 
+19:20:57.059 [MainThread] INFO    thonny: TIME/MODS 0.000 befsubcode 
+19:20:57.090 [MainThread] INFO    thonny: TIME/MODS 0.031 affsubcode 
+19:20:57.135 [MainThread] INFO    thonny: TIME/MODS 0.045 affforw 
+19:20:57.135 [MainThread] INFO    thonny: TIME/MODS 0.000 after get_globals 
+19:21:01.752 [MainThread] INFO    thonny: TIME/MODS 4.617 before Run 
+19:21:01.791 [MainThread] INFO    thonny: TIME/MODS 0.040 befsubcode 
+19:21:01.924 [MainThread] INFO    thonny: TIME/MODS 0.133 affsubcode 
