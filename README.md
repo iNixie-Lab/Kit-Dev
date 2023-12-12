@@ -10,4 +10,4 @@ This kit is equipped with detailed hardware circuit diagrams and software exampl
 With the ESP32C3 as the main controller, we provide example codes in MicroPython and Arduino. Whether it's Python or C++, you can seamlessly interface with the Kit.
 
 ### Website
-Make sure to check out our officail website inixielab.com and you can find page(https://inixielab.com/kit) for this kit there too.
+Make sure to check out our officail website https://inixielab.com and you can find page(https://inixielab.com/kit) for this kit there too.
